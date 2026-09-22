@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://imthewilbur.github.io/Sandy-s-Heating-and-Air/sitemap.xml
