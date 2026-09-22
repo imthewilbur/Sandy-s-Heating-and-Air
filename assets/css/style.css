@@ -583,3 +583,5 @@ section { padding: clamp(2.25rem, 5vw, 4.5rem) 0; }
 .site-credit {
   margin-top: 0.8rem; font-size: 0.75rem; color: #6b655a;
 }
+.site-credit a { color: inherit; text-decoration: underline; }
+.site-credit a:hover { color: #EFE9DD; }
