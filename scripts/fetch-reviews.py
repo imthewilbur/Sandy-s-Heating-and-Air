@@ -177,8 +177,8 @@ def main():
         print(f"Could not find {SCHEMA_START} ... {SCHEMA_END} markers in index.html — aborting.")
         sys.exit(1)
 
-    updated = pattern.sub(new_block, html_content)
-    updated = schema_pattern.sub(new_schema, updated)
+    updated = pattern.sub(lambda m: new_block, html_content)
+    updated = schema_pattern.sub(lambda m: new_schema, updated)
 
     with open(INDEX_HTML_PATH, "w", encoding="utf-8") as f:
         f.write(updated)
