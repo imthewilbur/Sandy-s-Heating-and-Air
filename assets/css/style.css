@@ -580,3 +580,6 @@ section { padding: clamp(2.25rem, 5vw, 4.5rem) 0; }
 .equipment-card h3 { font-family: var(--font-display); font-weight: 800; font-size: var(--step-1); margin-bottom: 0.6em; }
 .equipment-card p { color: var(--ink-70); font-size: var(--step--1); margin: 0; }
 @media (max-width: 900px) { .equipment-grid { grid-template-columns: 1fr; } }
+.site-credit {
+  margin-top: 0.8rem; font-size: 0.75rem; color: #6b655a;
+}
