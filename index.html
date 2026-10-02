@@ -55,28 +55,157 @@
   },
   "areaServed": [
     {
-      "@type": "City",
-      "name": "Omaha"
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.1544,
+        "longitude": -96.042
+      },
+      "geoRadius": "56327"
     },
     {
       "@type": "City",
-      "name": "Papillion"
+      "name": "Omaha, NE"
     },
     {
       "@type": "City",
-      "name": "La Vista"
+      "name": "Papillion, NE"
     },
     {
       "@type": "City",
-      "name": "Gretna"
+      "name": "La Vista, NE"
     },
     {
       "@type": "City",
-      "name": "Bellevue"
+      "name": "Gretna, NE"
     },
     {
       "@type": "City",
-      "name": "Council Bluffs"
+      "name": "Bellevue, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Ralston, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Boys Town, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Elkhorn, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Bennington, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Springfield, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Waterloo, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Valley, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Yutan, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Mead, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Ashland, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Wahoo, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Fort Calhoun, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Kennard, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Blair, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Arlington, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Fremont, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Louisville, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Plattsmouth, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Murray, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Weeping Water, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Elmwood, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Greenwood, NE"
+    },
+    {
+      "@type": "City",
+      "name": "Council Bluffs, IA"
+    },
+    {
+      "@type": "City",
+      "name": "Carter Lake, IA"
+    },
+    {
+      "@type": "City",
+      "name": "Crescent, IA"
+    },
+    {
+      "@type": "City",
+      "name": "Pacific Junction, IA"
+    },
+    {
+      "@type": "City",
+      "name": "Glenwood, IA"
+    },
+    {
+      "@type": "City",
+      "name": "Treynor, IA"
+    },
+    {
+      "@type": "City",
+      "name": "Underwood, IA"
+    },
+    {
+      "@type": "City",
+      "name": "Malvern, IA"
+    },
+    {
+      "@type": "City",
+      "name": "Missouri Valley, IA"
     }
   ],
   "openingHoursSpecification": {
@@ -197,7 +326,7 @@
       "name": "What brands do you install?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We primarily install Trane and RunTru systems, though we service and repair most major HVAC brands."
+        "text": "We install Trane, Carrier, and RunTru systems, and we service and repair all makes and models."
       }
     },
     {
@@ -213,7 +342,7 @@
       "name": "What areas do you serve?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Omaha, Papillion, La Vista, Gretna, Bellevue, and Council Bluffs. If you're just outside that area, call us anyway \u2014 we can often still help."
+        "text": "Homes within about 35 miles of our Papillion shop: the whole Omaha metro, out to Fremont, Blair, Wahoo, and Plattsmouth, and across the river to Council Bluffs and Glenwood. Not seeing your town? Give us a call \u2014 we probably still cover it."
       }
     },
     {
@@ -286,7 +415,7 @@
       </div>
     </div>
     <div class="container hero-bottom" data-reveal>
-      <p class="lede hero-lede">Sandy's Heating &amp; Air is a family-run HVAC crew serving Omaha, Papillion, La Vista, Gretna and Bellevue. Eric started it to do the opposite of what he saw everywhere else: honest assessments, straight answers, and no pressure to buy more than you need.</p>
+      <p class="lede hero-lede">Sandy's Heating &amp; Air is a family-run HVAC crew serving Omaha, Papillion, La Vista, Gretna, Bellevue, and every town within about 35 miles of our Papillion shop. Eric started it to do the opposite of what he saw everywhere else: honest assessments, straight answers, and no pressure to buy more than you need.</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="https://book.housecallpro.com/book/Sandys-Heating--Air/171e3330077a4adaa7cddf105f714ef6?v2=true" target="_blank" rel="noopener">Book a Service</a>
         <a class="btn btn-ghost btn-call" href="tel:4022130102">Call 402-213-0102</a>
@@ -294,7 +423,9 @@
       <div class="hero-trust">
         <span class="trust-badge"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10.5l3.5 3.5L16 5.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>BBB Accredited</span>
         <span class="trust-badge"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10.5l3.5 3.5L16 5.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>2024 Nextdoor Neighborhood Fave</span>
+        <span class="trust-badge"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10.5l3.5 3.5L16 5.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>2025 Nextdoor Neighborhood Fave</span>
         <span class="trust-badge"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10.5l3.5 3.5L16 5.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Trane Dealer</span>
+        <img class="trust-graphic" src="assets/img/trane-comfort-specialist.webp" alt="Trane Comfort Specialist badge" width="276" height="220">
       </div>
     </div>
   </section>
@@ -342,7 +473,7 @@
           <img src="assets/img/ac-repair.webp" alt="Technician servicing an AC unit" loading="lazy">
           <div class="service-card-body">
             <h3>AC Repair &amp; Maintenance</h3>
-            <p>Same-day repair and seasonal tune-ups so summer doesn't catch you off guard.</p>
+            <p>Same-day repair and seasonal tune-ups on all makes and models, so summer doesn't catch you off guard.</p>
           </div>
         </a>
 
@@ -540,6 +671,24 @@
   </section>
 
 
+  <!-- ============ SERVICE AREA ============ -->
+  <section class="area-band">
+    <div class="container area-band-grid" data-reveal>
+      <div class="section-head">
+        <div class="tag tag--frost section-tag">Where we work</div>
+        <h2>Anywhere within 35 miles of our Papillion shop.</h2>
+      </div>
+      <div class="area-band-copy">
+        <p class="lede">Omaha, Papillion, La Vista, Gretna, Bellevue, Elkhorn, Bennington, Springfield, Plattsmouth, Fremont, Blair, Wahoo, Council Bluffs, Glenwood, and the towns in between.</p>
+        <p class="area-band-callout">Not seeing your town? Give us a call &mdash; we probably still cover it.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="tel:4022130102">Call 402-213-0102</a>
+          <a class="btn btn-ghost btn-accent" href="service-areas.html">See all service areas</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ============ FAQ ============ -->
   <section class="faq-section">
     <div class="container">
@@ -560,7 +709,7 @@
 
         <div class="faq-item">
           <h3>What brands do you install?</h3>
-          <p>We primarily install Trane and RunTru systems, though we service and repair most major HVAC brands.</p>
+          <p>We install Trane, Carrier, and RunTru systems, and we service and repair all makes and models.</p>
         </div>
 
         <div class="faq-item">
@@ -570,7 +719,7 @@
 
         <div class="faq-item">
           <h3>What areas do you serve?</h3>
-          <p>Omaha, Papillion, La Vista, Gretna, Bellevue, and Council Bluffs. If you're just outside that area, call us anyway — we can often still help.</p>
+          <p>Homes within about 35 miles of our Papillion shop: the whole Omaha metro, out to Fremont, Blair, Wahoo, and Plattsmouth, and across the river to Council Bluffs and Glenwood. <a href="service-areas.html">See every town we cover</a>. Not seeing your town? Give us a call — we probably still cover it.</p>
         </div>
 
         <div class="faq-item">
@@ -621,9 +770,9 @@
       <div>
         <h4>Service Areas</h4>
         <ul>
-          <li>Omaha</li>
-          <li>Papillion</li>
-          <li>La Vista &middot; Gretna &middot; Bellevue</li>
+          <li>Omaha &middot; Papillion &middot; La Vista</li>
+          <li>Gretna &middot; Bellevue &middot; Council Bluffs</li>
+          <li><a href="service-areas.html">Every town within 35 miles</a></li>
         </ul>
       </div>
     </div>
