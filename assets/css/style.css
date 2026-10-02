@@ -587,8 +587,10 @@ section { padding: clamp(2.25rem, 5vw, 4.5rem) 0; }
 .site-credit a:hover { color: #EFE9DD; }
 
 /* ---------- Trust graphic (hero) ---------- */
-.trust-graphic { height: clamp(64px, 6vw, 84px); width: auto; margin-left: auto; }
-@media (max-width: 620px) { .trust-graphic { margin-left: 0; } }
+.hero-trust { flex-wrap: nowrap; justify-content: space-between; gap: 1rem 2rem; }
+.trust-badges { display: flex; flex-wrap: wrap; align-items: center; gap: 0.7rem; }
+.trust-graphic { height: clamp(104px, 10vw, 150px); width: auto; flex-shrink: 0; }
+@media (max-width: 620px) { .hero-trust { flex-wrap: wrap; } }
 
 /* ---------- Service-area band (home) ---------- */
 .area-band { border-top: 1px solid rgba(0,0,0,0.08); }
@@ -606,3 +608,9 @@ section { padding: clamp(2.25rem, 5vw, 4.5rem) 0; }
 .town-list { list-style: none; margin: 0; padding: 0; font-size: var(--step--1); font-weight: 500; color: var(--ink); line-height: 1.9; }
 @media (max-width: 900px) { .town-group-grid { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 620px) { .town-group-grid { grid-template-columns: 1fr 1fr; } }
+
+/* Balanced headline wrapping: no lone word on the last line */
+h1, h2, h3 { text-wrap: balance; }
+
+/* Financing: one-line pointer to the equipment section on Services */
+.equipment-note .lede { max-width: 60ch; margin: 0; }

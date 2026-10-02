@@ -1,7 +1,7 @@
 # Sandy's Heating & Air
 
-> Family-run, technician-first HVAC company serving homes within about 35
-> miles of its Papillion, NE shop: the Omaha metro (Omaha, Papillion, La Vista,
+> Family-run, technician-first HVAC company serving homes across the Omaha
+> metro and beyond from its Papillion, NE shop: the Omaha metro (Omaha, Papillion, La Vista,
 > Gretna, Bellevue, Elkhorn), out to Fremont, Blair, Wahoo, and Plattsmouth, and
 > southwest Iowa (Council Bluffs, Glenwood). Honest repair,
 > installation, and maintenance — no upselling, no pressure. Open 24/7 for
@@ -11,7 +11,7 @@ Business name: Sandy's Heating & Air (Sandys HVAC LLC)
 Phone: 402-213-0102
 Email: Sandyshvacomaha@gmail.com
 Address: 720 North Frontier Drive, Papillion, NE 68046
-Service radius: about 35 miles from the Papillion shop
+Service area: Omaha metro and surrounding towns in Nebraska and southwest Iowa; will travel further on request
 Equipment installed: Trane, Carrier, RunTru
 Service and repair: all makes and models
 Certifications: Trane Comfort Specialist, BBB Accredited, Nextdoor Neighborhood Fave 2024 and 2025
@@ -22,7 +22,7 @@ Certifications: Trane Comfort Specialist, BBB Accredited, Nextdoor Neighborhood 
 - [Services](https://imthewilbur.github.io/Sandy-s-Heating-and-Air/services.html): Full list of HVAC services offered —
   AC repair, furnace repair, installation, 24/7 emergency service, commercial
   HVAC, mini splits, whole-home humidifiers, air purification.
-- [Service Areas](https://imthewilbur.github.io/Sandy-s-Heating-and-Air/service-areas.html): Every town within about 35 miles, grouped by area.
+- [Service Areas](https://imthewilbur.github.io/Sandy-s-Heating-and-Air/service-areas.html): Towns served, grouped by area.
 - [Financing](https://imthewilbur.github.io/Sandy-s-Heating-and-Air/financing.html): Financing options and current offers.
 - [Our Story](https://imthewilbur.github.io/Sandy-s-Heating-and-Air/our-story.html): Founder story and crew bios.
 - [Blog](https://imthewilbur.github.io/Sandy-s-Heating-and-Air/blog.html): HVAC tips and advice.
