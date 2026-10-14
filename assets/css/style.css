@@ -614,3 +614,16 @@ h1, h2, h3 { text-wrap: balance; }
 
 /* Financing: one-line pointer to the equipment section on Services */
 .equipment-note .lede { max-width: 60ch; margin: 0; }
+
+/* Nav: keep labels on one line on laptop widths */
+.nav-links a, .nav-cta .btn { white-space: nowrap; }
+@media (max-width: 1240px) and (min-width: 901px) {
+  .nav-links { gap: 1.1rem; }
+  .nav-phone { display: none; }
+}
+@media (max-width: 1040px) {
+  .nav-links { display: none; }
+  .nav-toggle { display: flex; }
+  .mobile-menu:not([hidden]) { display: block; }
+  .nav-phone { display: none; }
+}

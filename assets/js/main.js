@@ -46,7 +46,7 @@
   });
   // Close the mobile menu automatically if the viewport grows back to desktop width
   window.addEventListener('resize', function () {
-    if (window.innerWidth > 900 && !menu.hidden) closeMenu();
+    if (window.innerWidth > 1040 && !menu.hidden) closeMenu();
   });
 })();
 
