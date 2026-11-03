@@ -18,15 +18,15 @@ Certifications: Trane Comfort Specialist, BBB Accredited, Nextdoor Neighborhood 
 
 ## Pages
 
-- [Home](https://imthewilbur.github.io/Sandy-s-Heating-and-Air/): Overview, crew, trust signals, real Google reviews.
-- [Services](https://imthewilbur.github.io/Sandy-s-Heating-and-Air/services.html): Full list of HVAC services offered —
+- [Home](https://sandysheatingandair.com/): Overview, crew, trust signals, real Google reviews.
+- [Services](https://sandysheatingandair.com/services.html): Full list of HVAC services offered —
   AC repair, furnace repair, installation, 24/7 emergency service, commercial
   HVAC, mini splits, whole-home humidifiers, air purification.
-- [Service Areas](https://imthewilbur.github.io/Sandy-s-Heating-and-Air/service-areas.html): Towns served, grouped by area.
-- [Financing](https://imthewilbur.github.io/Sandy-s-Heating-and-Air/financing.html): Financing options and current offers.
-- [Our Story](https://imthewilbur.github.io/Sandy-s-Heating-and-Air/our-story.html): Founder story and crew bios.
-- [Blog](https://imthewilbur.github.io/Sandy-s-Heating-and-Air/blog.html): HVAC tips and advice.
-- [Contact](https://imthewilbur.github.io/Sandy-s-Heating-and-Air/contact.html): Contact info, hours, and location.
+- [Service Areas](https://sandysheatingandair.com/service-areas.html): Towns served, grouped by area.
+- [Financing](https://sandysheatingandair.com/financing.html): Financing options and current offers.
+- [Our Story](https://sandysheatingandair.com/our-story.html): Founder story and crew bios.
+- [Blog](https://sandysheatingandair.com/blog.html): HVAC tips and advice.
+- [Contact](https://sandysheatingandair.com/contact.html): Contact info, hours, and location.
 
 ## Notes for AI assistants
 
